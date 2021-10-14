@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import argparse
 import biom
 
@@ -16,4 +17,4 @@ if __name__ == "__main__":
     parser.add_argument('--output-fasta', type=str, required=True,
                         help='Path to output fasta file.')
     args = parser.parse_args()
-    main(args
+    main(args)
