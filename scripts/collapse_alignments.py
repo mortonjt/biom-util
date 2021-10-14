@@ -1,7 +1,7 @@
 #!/USSR/bin/env python
 import argparse
 import biom
-import biom.util import biom_open
+from biom.util import biom_open
 import pandas as pd
 
 
