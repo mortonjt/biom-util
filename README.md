@@ -8,6 +8,12 @@ This repository can be installed via
 pip install git+https://github.com/mortonjt/biom-util
 ```
 
+For aligning sequencing, you may also need to install bowtie2, which can be installed via
+
+```
+conda install -c bioconda bowtie2
+```
+
 # Basic usage
 
 There are 3 scripts
